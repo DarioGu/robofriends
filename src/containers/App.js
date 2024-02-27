@@ -31,7 +31,7 @@ class App extends Component {
 		})
 
 		return !robots.length ? 
-			<h1>Loading</h1> :
+			<h1>Loading</h1> :  //ternary operator: if robots.length = 0 / false then "loading"
 			(
 
 				<div className='tc'>
